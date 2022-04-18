@@ -1,0 +1,149 @@
+
+/* Nav CSS */
+.navbar .navbar-nav li > a{
+    color: black !important;
+}
+
+.navdivider{
+    margin-top: 0.45rem;
+    font-weight: normal;
+}
+
+/* Common CSS */
+body{
+    background-color: #fafafa;
+}
+
+p, .listp{
+    font-family: Helvetica;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Image CSS */
+.lpzag{
+    width: 325px;
+    margin-left: 15px;
+}
+
+.hszag{
+    width: 200px;
+  }
+
+.szag{
+    width: 190px;
+  }
+
+.zaglogo{
+    width: 300px;
+}
+
+/* Booklist CSS */
+.books{
+    list-style-type:none;
+    padding-left:0;
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+
+.booknotes, .ResList{
+    font-family: Helvetica;
+    list-style-type:disc;
+    font-weight: normal;
+    font-size:1.1rem;
+}
+
+/* Individual Article CSS */
+.singleArticlePicture{
+  max-height: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1em;
+}
+
+/* Article CSS */
+/* Modified from https://adrianroselli.com/2020/02/block-links-cards-clickable-regions-etc.html  */
+
+.ArticleDiv {
+    line-height: 1.4;
+    font-family: Helvetica;
+  }
+  
+  .ArticleDiv > * {
+    padding: 0.5em 0.8em;
+    margin: 0 0.5em 1em 0.5em;
+    border: .2em solid rgba(0,0,0,.15);
+    border-radius: 1em;
+    background-color: #fff;
+  }
+  
+  .ArticleImage {
+    /*Assumed 4:3 Aspect Ratio*/
+    height:180px;
+    width:240px;
+    margin: 5.5em 0em 0.5em 1em;
+    float: right;
+    border-radius: 1em;
+  }
+  
+  .ArticleHeading {
+    margin: 0.2em 0;
+    line-height: 1.2;
+  }
+  
+  .ArticleText {
+    margin: .2em 0;
+    text-align: justify;
+  }
+  
+  .ArticleLink:focus, .ArticleLink:hover {
+    text-decoration: none;
+  }
+  
+  .default .ArticleLink:link {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .default .ArticleLink:focus .ArticleHeading, .default .ArticleLink:hover .ArticleHeading {
+    color: #00f;
+    text-decoration: underline;
+  }
+  
+  .block {
+    position: relative;
+  }
+  
+  .block a[href]::after, .block button::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .block:hover, .block:focus-within, .default:hover, .default:focus-within {
+    border-color: rgba(0,0,255,.5);
+    box-shadow: 0 0 .5em rgba(0,0,0,.25);
+  }
+  
+  /* Help out IE */
+  
+  .block a[href]:hover, .block a[href]:focus {
+    outline: .4em solid rgba(0,0,255,.25);
+    outline-offset: .25em;
+  }
+  
+  /* Undo the IE */
+  
+  .block:hover a[href]:hover, .block:hover a[href]:focus, .block:hover button:focus, .block:hover button:hover, .block:focus-within a[href]:hover, .block:focus-within a[href]:focus, .block:focus-within button:focus, .block:focus-within button:hover {
+    outline: none;
+  }
+  
+  
+
+
+
