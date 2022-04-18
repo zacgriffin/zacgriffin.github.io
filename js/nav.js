@@ -1,5 +1,5 @@
 document.write('<div>\
-<a href="index.html"> <img class=\"zaglogo img-fluid mx-auto d-block\" src=\"/images/websitelogo.PNG\" alt=\"Zac\'s Website Logo\"> </a>\
+<a href="/index.html"> <img class=\"zaglogo img-fluid mx-auto d-block\" src=\"/images/websitelogo.PNG\" alt=\"Zac\'s Website Logo\"> </a>\
 <nav class="navbar navbar-expand-md fw-bold navbar-light">\
   <div class ="container-fluid">\
     <div class="navbar-collapse collapse dual-collapse2">\
